@@ -32,7 +32,7 @@ hercules-automation/
 ├── base/              # Driver setup & common configuration
 ├── pages/             # Page Object Model classes
 ├── tests/             # TestNG test cases
-├── utils/             # Utilities (Waits, Helpers, Reusable methods)
+├── utils/             # Utilities 
 ├── testng.xml         # Test suite file
 ├── pom.xml            # Dependencies
 └── README.md
