@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="3" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-04-20T11:21:47 IST" name="hercules-automation Suite" finished-at="2026-04-20T11:22:58 IST" duration-ms="70786">
+    <groups>
+    </groups>
+    <test started-at="2026-04-20T11:21:47 IST" name="All Tests" finished-at="2026-04-20T11:22:58 IST" duration-ms="70786">
+      <class name="tests.SettingsTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.SettingsTest@5ffead27]" started-at="2026-04-20T11:22:49 IST" name="setup" finished-at="2026-04-20T11:22:53 IST" duration-ms="4337" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="updateSettingsTest()[pri:0, instance:tests.SettingsTest@5ffead27]" started-at="2026-04-20T11:22:53 IST" name="updateSettingsTest" finished-at="2026-04-20T11:22:57 IST" duration-ms="3965" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Value not updated correctly expected [Automation User] but found [null]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Value not updated correctly expected [Automation User] but found [null]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at tests.SettingsTest.updateSettingsTest(SettingsTest.java:28)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateSettingsTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.SettingsTest@5ffead27]" started-at="2026-04-20T11:22:57 IST" name="tearDown" finished-at="2026-04-20T11:22:58 IST" duration-ms="632" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.SettingsTest -->
+      <class name="tests.HomeTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.HomeTest@5f058f00]" started-at="2026-04-20T11:21:47 IST" name="setup" finished-at="2026-04-20T11:21:54 IST" duration-ms="7037" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyHomePage()[pri:0, instance:tests.HomeTest@5f058f00]" started-at="2026-04-20T11:21:54 IST" name="verifyHomePage" finished-at="2026-04-20T11:22:05 IST" duration-ms="10296" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.HomeTest@5f058f00]" started-at="2026-04-20T11:22:05 IST" name="tearDown" finished-at="2026-04-20T11:22:06 IST" duration-ms="833" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.HomeTest -->
+      <class name="tests.QuestionsTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.QuestionsTest@2e005c4b]" started-at="2026-04-20T11:22:06 IST" name="setup" finished-at="2026-04-20T11:22:10 IST" duration-ms="4726" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testAddQuestion()[pri:0, instance:tests.QuestionsTest@2e005c4b]" started-at="2026-04-20T11:22:10 IST" name="testAddQuestion" finished-at="2026-04-20T11:22:16 IST" duration-ms="6022" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddQuestion -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.QuestionsTest@2e005c4b]" started-at="2026-04-20T11:22:16 IST" name="tearDown" finished-at="2026-04-20T11:22:17 IST" duration-ms="747" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.QuestionsTest -->
+      <class name="tests.PricingTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.PricingTest@4567f35d]" started-at="2026-04-20T11:22:17 IST" name="setup" finished-at="2026-04-20T11:22:22 IST" duration-ms="5022" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testPricing()[pri:0, instance:tests.PricingTest@4567f35d]" started-at="2026-04-20T11:22:22 IST" name="testPricing" finished-at="2026-04-20T11:22:48 IST" duration-ms="26315" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPricing -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.PricingTest@4567f35d]" started-at="2026-04-20T11:22:48 IST" name="tearDown" finished-at="2026-04-20T11:22:49 IST" duration-ms="652" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.PricingTest -->
+    </test> <!-- All Tests -->
+  </suite> <!-- hercules-automation Suite -->
+</testng-results>
